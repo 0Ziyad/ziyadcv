@@ -1,0 +1,55 @@
+.experience__list {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.experience__item {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 24px 28px;
+}
+
+.experience__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.experience__head h3 {
+  color: #fff;
+  margin: 0 0 4px;
+  font-size: 1.08rem;
+}
+
+.experience__company {
+  color: #6ee7ff;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.experience__period {
+  color: #8b98ac;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.experience__item ul {
+  margin: 0;
+  padding-inline-start: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.experience__item li {
+  color: #cbd5e1;
+  font-size: 0.92rem;
+  line-height: 1.8;
+}

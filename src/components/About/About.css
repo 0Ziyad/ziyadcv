@@ -1,0 +1,15 @@
+.about__card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 28px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.about__card p {
+  color: #cbd5e1;
+  line-height: 2;
+  margin: 0;
+  font-size: 1.02rem;
+}
